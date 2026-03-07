@@ -6,13 +6,35 @@
 */ 
 
 h1{
-    font-weight: 100;
-    color:#3c1257;
+    color:#4f1374;
+    position: sticky;
+    text-align: center;
+}
+
+nav ul{
+    font-size: 1.5rem;
+    list-style:none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+    display: flex;
+}
+nav{
+    background-color: #200732;
+    padding: 0.7em;
+    position: sticky;
+    top: auto;
+}
+
+nav a{
+    color: #cbb9d5;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #c6a3bc;
+    text-decoration:underline;
+}
+
+h1{
     
 }
-
-ul{
-    list-style-type:none;
-
-}
-
